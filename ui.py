@@ -1,7 +1,7 @@
 import streamlit as st
 import requests
 
-BASE_URL = "https://3da5-35-240-242-126.ngrok-free.app"
+BASE_URL = "http://localhost:5000"
 # Initialize session state for news_data
 if "news_data" not in st.session_state:
     st.session_state.news_data = None
