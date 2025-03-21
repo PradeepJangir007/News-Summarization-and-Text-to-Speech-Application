@@ -24,8 +24,8 @@ pip install -r requirements.txt
 ### Running the Application
 1. Clone the repository:
    ```bash
-   git clone <repository_url>
-   cd <repository_name>
+   git clone https://github.com/PradeepJangir007/News-Summarization-and-Text-to-Speech-Application.git
+   cd News-Summarization-and-Text-to-Speech-Application
    ```
 2. Install dependencies:
    ```bash
@@ -55,8 +55,8 @@ pip install -r requirements.txt
 ```
 
 ## API Usage
-- **GET /analyze?company=CompanyName**: Fetches and analyzes news for the given company.
-- **GET /generate_audio?text=Text**: Generates Hindi audio from the input text.
+- **GET https://pradeepjangirml007-news-flask-api.hf.space/analyze?company=CompanyName**: Fetches and analyzes news for the given company.
+- **GET https://pradeepjangirml007-news-flask-api.hf.space/generate_audio?text=Text**: Generates Hindi audio from the input text.
 
 ## Expected Output
 ### Input:
